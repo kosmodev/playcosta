@@ -23,6 +23,8 @@
     "open-browser-webpack-plugin": "0.0.5"
   },
   "dependencies": {
-    "lodash": "^4.17.11"
+    "lodash": "^4.17.11",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
   }
-}
+} 
