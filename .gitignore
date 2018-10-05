@@ -1,0 +1,7 @@
+
+## System and generated files
+.DS_Store
+
+## Directories
+dist/
+node_modules/
