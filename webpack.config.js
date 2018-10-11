@@ -7,6 +7,7 @@ const path = require('path');
 
 module.exports = {
     entry: "./src/index.js", //set entry file
+    /*
     // Resolve to output directory and set file
     output: {
         filename: "main.js",
@@ -22,7 +23,7 @@ module.exports = {
         contentBase: './dist',
         port: 3000
     },
-
+    */
     // Add babel-loader to transpile js and jsx files
     module: {
         rules: [
