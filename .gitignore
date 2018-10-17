@@ -5,3 +5,5 @@
 
 ## Directories
 node_modules/
+# Build artifacts
+dist/main.js
