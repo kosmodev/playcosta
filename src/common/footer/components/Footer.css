@@ -1,6 +1,5 @@
 footer {
-    /*background: #222 url(../img/pattern.png) repeat 0 0;*/
-    background: #222;
+    background: #222 url(../assets/pattern.png) repeat 0 0;
     color: #fff;
     padding: 30px 0 10px 0;
 }
@@ -16,7 +15,21 @@ footer h3 {
     margin-top: 20px;
 }
 
-@media (max-width: 991px)
+footer ul {
+    margin: 0;
+    padding: 0 0 10px 0;
+    list-style: none;
+}
+
+a {
+    color: #51bce6;
+    text-decoration: none;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    outline: none;
+}
+
+/*@media (max-width: 991px)*/
 a#phone, a#email_footer {
     font-size: 12px;
     padding-left: 25px;
@@ -34,7 +47,34 @@ a#phone, a#email_footer {
 
 a#email_footer:before {
     font-size: 28px;
-    content: "\74";
+    /*content: "\74";*/
     left: 0;
     top: 5px;
+}
+
+.styled-select select {
+    background: transparent;
+    width: 115%;
+    padding: 7px 5px 5px 15px;
+    border: 0;
+    border-radius: 0;
+    height: 37px;
+    margin: 0;
+    font-weight: 400;
+    -moz-appearance: window;
+    -webkit-appearance: none;
+    cursor: pointer;
+    color: #999;
+}
+
+.styled-select {
+    width: 100%;
+    overflow: hidden;
+    height: 40px;
+    background: #434343 url(../assets/down_arrow_select.png ) no-repeat right center;
+    border: none;
+    margin-bottom: 15px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
 }
