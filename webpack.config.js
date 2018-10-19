@@ -7,6 +7,7 @@ const path = require('path');
 
 module.exports = {
     entry: "./src/index.js", //set entry file
+    
     /*
     // Resolve to output directory and set file
     output: {
@@ -59,6 +60,8 @@ module.exports = {
                     name: '[path][name].[ext]'
                 }
             }
-        ]
+    
+        ],
+        
     }
 }
