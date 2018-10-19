@@ -1,0 +1,136 @@
+header {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 99999;
+    padding: 10px 0;
+}
+
+#top_line {
+    color: #fff;
+    height: 28px;
+    font-size: 12px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    font-size: 11px;
+    visibility: visible;
+    opacity: 1;
+    margin-bottom: 5px;
+    position: relative;
+    z-index: 999999;
+}
+
+.topLinks {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+.topLinksLi {
+    display: inline-block;
+    border-left: 1px solid rgba(255,255,255,0.3);
+    margin-right: 5px;
+    padding-left: 8px;
+    position: relative;
+}
+
+#logo_home h1 {
+    margin: 10px 0 0 0;
+    padding: 0;
+}
+
+#logo_home h1 a, header.sticky #logo_home h1 a, header#plain #logo_home h1 a, header#colored #logo_home h1 a {
+    width: 160px;
+    height: 34px;
+    display: block;
+    background-image: url(../assets/logo.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 160px 34px;
+    text-indent: -9999px;
+}
+
+#close_in, #header_menu, .cmn-toggle-switch {
+    display: none;
+}
+
+/***** Menu *******/
+/*@media only screen and (min-width: 992px)*/
+.main-menu {
+    width: auto;
+}
+
+.main-menu {
+    position: relative;
+    z-index: 9;
+    width: auto;
+}
+
+.main-menu ul, .main-menu ul li, .main-menu ul li a {
+    position: relative;
+    margin-bottom: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.main-menu ul, .main-menu ul li, .main-menu ul li a {
+    position: relative;
+    margin-bottom: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.main-menu > ul > li > a {
+    color: #fff;
+    padding: 0 8px 15px 8px;
+    font-size: 13px;
+}
+.main-menu ul li a {
+    display: block;
+    line-height: 20px;
+    padding: 10px;
+}
+
+/*@media only screen and (min-width: 992px)*/
+.main-menu a {
+    white-space: nowrap;
+}
+.main-menu a {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+a {
+    color: #51bce6;
+    text-decoration: none;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    outline: none;
+}
+
+/*@media only screen and (min-width: 992px)*/
+.main-menu ul li {
+    display: inline-block;
+}
+
+/****** Top Links ***********/
+ul#top_links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+ul#top_links li:first-child {
+    border-left: none;
+    padding-left: 0;
+}
+
+ul#top_links li {
+    display: inline-block;
+    border-left: 1px solid rgba(255,255,255,0.3);
+    margin-right: 5px;
+    padding-left: 8px;
+    position: relative;
+}
