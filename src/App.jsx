@@ -1,16 +1,15 @@
-// Import react
-import React from 'react';
-
-class App extends React.Component {
+import React, {Component, Fragment} from 'react';
+import Header from './common/header';
+import Footer from './common/footer';
+class App extends Component {
     render() {
         return (
-            <div>
-
-                <div class="jumbotron">
-                    <h1> Hello React and Webpack!!</h1>
-                </div>
-
-            </div>
+            <Fragment>
+                <Header />
+            
+                <Footer />
+            </Fragment>
+            
         );
     }
 }
